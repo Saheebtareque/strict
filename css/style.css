@@ -1,0 +1,158 @@
+body {
+  color: #959595; }
+
+img {
+  max-width: 100%; }
+
+.navbar {
+  padding: 20px 0px;
+  background-color: #F8F9FA; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: capitalize; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #15A4FA; }
+
+.banner-section {
+  background-image: url(../images/strict.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .banner-section .row {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .banner-section .row h1 {
+      font-size: 106.5px;
+      color: white;
+      text-transform: uppercase; }
+    .banner-section .row span {
+      display: block;
+      height: 2px;
+      background-color: #15A4FA; }
+    .banner-section .row .btn-custom {
+      color: white;
+      border: 1px solid #15A4FA;
+      padding: 10px 19px; }
+      .banner-section .row .btn-custom:hover {
+        background-color: #15A4FA; }
+  .banner-section .click {
+    position: absolute;
+    bottom: -75px;
+    left: 49%;
+    color: white;
+    font-size: -5px;
+    display: block;
+    font-size: 29px;
+    transform: translateX(-50%); }
+  .banner-section p {
+    margin-top: 14px;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 20px; }
+
+.writing {
+  text-align: center;
+  text-align: center;
+  padding: 70px 0px; }
+  .writing h3 {
+    font-size: 44.75px;
+    color: #313d53;
+    font-weight: 600; }
+  .writing p {
+    margin-top: 17px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 1rem;
+    font-weight: 500; }
+
+.diagrams .dada .bhitre {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,60c5ff+50 */
+  background: #48baff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #48baff 50%, #60c5ff 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #48baff 50%, #60c5ff 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #48baff 50%, #60c5ff 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#60c5ff',GradientType=1 );
+  /* IE6-9 */ }
+
+.diagrams {
+  text-align: center;
+  padding: 20px 0px; }
+  .diagrams .dada .bhitre {
+    dispay: block;
+    width: 20px;
+    display: block;
+    height: auto;
+    width: 74px;
+    /* display: block; */
+    height: 80px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    line-height: 80px; }
+    .diagrams .dada .bhitre i {
+      text-shadow: 1px 1px 2px #2d3950; }
+  .diagrams .dada h5 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    color: #313d53; }
+  .diagrams .dada p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    /* font-size: 7px; */
+    font-size: 17px; }
+
+.lekha {
+  padding: 30px 0px;
+  text-align: center; }
+  .lekha h1 {
+    font-size: 50px;
+    color: #5B5964; }
+  .lekha p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 700; }
+
+.gallery .chobi a img {
+  object-fit: cover;
+  padding: 20px 5px; }
+
+footer {
+  display: block;
+  padding: 40px 0px; }
+  footer h6 {
+    font-size: 23px; }
+  footer ul li a {
+    background-color: #007bff;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    color: #fff;
+    width: 35px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 18px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 18px;
+    display: block;
+    border: 1px solid #15A4FA; }
+    footer ul li a:hover {
+      color: #15A4FA;
+      background-color: transparent; }
+
+/*# sourceMappingURL=style.css.map */
